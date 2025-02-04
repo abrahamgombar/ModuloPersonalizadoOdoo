@@ -40,6 +40,9 @@
         'views/views.xml',
         # Plantillas del módulo
         'views/templates.xml',
+        # Datos de demostración
+        # Se situan en esta ubicacion debido a que el modo demostracion no esta activado
+        'demo/demo.xml'
     ],
     
     # Para que funcionen los archivos CSS
@@ -51,7 +54,7 @@
     },
 
     # Archivos cargados solo en modo demostración
-    'demo': [
-        'demo/demo.xml',
-    ],
+    #'demo': [
+    #    'demo/demo.xml',
+    #]
 }
